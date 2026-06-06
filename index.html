@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MNGL Clean — Detailing Automobile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header>
+    <a href="#" class="nav-logo"></a>
+    <nav>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <img src="images/logo.png" alt="MNGL Clean" class="hero-logo">
+      <div class="hero-sep"></div>
+      <p class="hero-sub">Nettoyage & detailing automobile<br>à domicile — Vaucluse & Alentours </p>
+      <a href="#contact" class="hero-cta">Prendre rendez-vous</a>
+    </div>
+    <div class="hero-scroll">
+      <span>Découvrir</span>
+      <div class="scroll-bar"></div>
+    </div>
+  </section>
+
+  <!-- INTRO BANDE -->
+
+
+  <!-- TARIFS -->
+  <section id="tarifs" class="tarifs">
+    <div class="section-head">
+      <p class="eyebrow">Nos formules</p>
+      <h2>Tarifs & Prestations</h2>
+    </div>
+
+    <div class="tarif-grid">
+
+      <div class="tarif-card">
+        <div class="tarif-num">01</div>
+        <h3>Intérieur</h3>
+        <p class="tarif-desc">Un habitacle propre, soigné, désinfecté.</p>
+        <div class="tarif-price">À partir de <strong>60€</strong></div>
+        <ul>
+          <li>Aspiration habitacle & coffre</li>
+          <li>Nettoyage plastiques & console</li>
+          <li>Vitres intérieur</li>
+          <li>Tapis & passages de portes</li>
+        </ul>
+        <a href="#contact" class="tarif-btn">Réserver</a>
+      </div>
+
+      <div class="tarif-card tarif-featured">
+        <div class="tarif-num">02</div>
+        <h3>Complet</h3>
+        <p class="tarif-desc">L'intervention totale, intérieur et extérieur.</p>
+        <div class="tarif-price">À partir de <strong>100€</strong></div>
+        <ul>
+          <li>Tout le pack Intérieur</li>
+          <li>Lavage carrosserie à la main</li>
+          <li>Jantes, pneus & passages</li>
+          <li>Séchage & dressing pneus</li>
+          <li>Finition soignée</li>
+        </ul>
+        <a href="#contact" class="tarif-btn tarif-btn-inv">Réserver</a>
+      </div>
+
+      <div class="tarif-card">
+        <div class="tarif-num">03</div>
+        <h3>Extérieur</h3>
+        <p class="tarif-desc">Carrosserie éclatante, lavage à la main.</p>
+        <div class="tarif-price">À partir de <strong>40€</strong></div>
+        <ul>
+          <li>Lavage carrosserie à la main</li>
+          <li>Jantes, pneus & passages</li>
+          <li>Vitres extérieur</li>
+          <li>Séchage précision</li>
+        </ul>
+        <a href="#contact" class="tarif-btn">Réserver</a>
+      </div>
+
+    </div>
+    <p class="tarif-note">Tarifs variables selon taille et état du véhicule. Devis gratuit sur demande.</p>
+  </section>
+
+  <!-- GALERIE -->
+  <section id="galerie" class="galerie">
+    <div class="section-head">
+      <p class="eyebrow">Réalisations</p>
+      <h2>Notre travail</h2>
+    </div>
+    <div class="galerie-grid">
+      <div class="galerie-slot large">
+        <img src="images/photo1.jpg" alt="Avant Après">
+      </div>
+      <div class="galerie-col">
+        <div class="galerie-slot">
+          <img src="images/photo2.jpg" alt="Interieur">
+        </div>
+        <div class="galerie-slot">
+          <img src="images/photo3.jpg" alt="Exterieur">
+        </div>
+      </div>
+      <div class="galerie-slot medium">
+        <img src="images/photo4.jpg" alt="Detailing">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="contact-inner">
+
+      <div class="contact-left">
+        <p class="eyebrow">Parlons-en</p>
+        <h2>Votre voiture<br>mérite le meilleur.</h2>
+        <div class="contact-details">
+          <a href="tel:+33671679728">
+            <span class="detail-label">Téléphone</span>
+            <span>+33 6 71 67 97 28</span>
+          </a>
+          <a href="mailto:contact@mnglclean.fr">
+            <span class="detail-label">Email</span>
+            <span>contact@mnglclean.fr</span>
+          </a>
+          <div>
+            <span class="detail-label">Zone</span>
+            <span>À domicile — Vaucluse & Alentours </span>
+          </div>
+          <div>
+            <span class="detail-label">Horaires</span>
+            <span>Lundi – Samedi · 8h – 19h</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="field">
+            <label>Nom</label>
+            <input type="text" name="nom" placeholder="Votre nom" required>
+          </div>
+          <div class="field">
+            <label>Téléphone</label>
+            <input type="tel" name="tel" placeholder="06 00 00 00 00">
+          </div>
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="votre@email.com" required>
+        </div>
+        <div class="field">
+          <label>Prestation</label>
+          <select name="prestation">
+            <option value="">Choisir une formule…</option>
+            <option>Intérieur — à partir de 60€</option>
+            <option>Extérieur — à partir de 40€</option>
+            <option>Complet — à partir de 100€</option>
+            <option>Autre / Devis personnalisé</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Véhicule</label>
+          <input type="text" name="vehicule" placeholder="Marque, modèle, année">
+        </div>
+        <div class="field">
+          <label>Message</label>
+          <textarea name="message" placeholder="Votre message…"></textarea>
+        </div>
+        <button type="submit" id="submit-btn">Envoyer la demande →</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-right">
+      <span>© 2025 MNGL Clean</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
