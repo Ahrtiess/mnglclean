@@ -190,9 +190,9 @@ function generateBookingId() {
 //
 // Tant que ces 3 valeurs sont vides, le client ne reçoit pas d'email (il garde
 // quand même son numéro de réservation affiché à l'écran pour annuler).
-const EMAILJS_PUBLIC_KEY  = ''; // ex: 'AbCdEfGhIjKlMnOp'
-const EMAILJS_SERVICE_ID  = ''; // ex: 'service_abc1234'
-const EMAILJS_TEMPLATE_ID = ''; // ex: 'template_xyz789'
+const EMAILJS_PUBLIC_KEY  = 'gLvkq8fh0Rlj2e1bF'; // ex: 'AbCdEfGhIjKlMnOp'
+const EMAILJS_SERVICE_ID  = 'service_g7ya4ip'; // ex: 'service_abc1234'
+const EMAILJS_TEMPLATE_ID = 'template_20avr68'; // ex: 'template_xyz789'
 
 function hasClientEmailBackend() {
   return !!(EMAILJS_PUBLIC_KEY && EMAILJS_SERVICE_ID && EMAILJS_TEMPLATE_ID && window.emailjs);
