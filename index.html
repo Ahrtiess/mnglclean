@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MNGL Clean — Lavage & Detailing Automobile à Domicile | Vaucluse</title>
+  <meta name="description" content="Lavage et detailing automobile à domicile en Vaucluse et alentours. Intérieur, extérieur, forfaits complets. Réservation en ligne rapide et simple.">
+  <meta name="keywords" content="lavage automobile Vaucluse, detailing auto Vaucluse, lavage voiture à domicile, nettoyage intérieur voiture, pressing auto Vaucluse">
+  <link rel="icon" href="images/logo.png" type="image/png">
+
+  <meta property="og:title" content="MNGL Clean — Lavage & Detailing Automobile à Domicile">
+  <meta property="og:description" content="Lavage et detailing automobile à domicile en Vaucluse et alentours. Réservez votre créneau en ligne.">
+  <meta property="og:image" content="https://mnglclean.fr/images/logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoWash",
+    "name": "MNGL Clean",
+    "image": "https://mnglclean.fr/images/logo.png",
+    "url": "https://mnglclean.fr",
+    "telephone": "+33671679728",
+    "email": "contact@mnglclean.fr",
+    "description": "Lavage et detailing automobile à domicile en Vaucluse et alentours : intérieur, extérieur, forfaits complets.",
+    "priceRange": "€€",
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Vaucluse"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Vaucluse",
+      "addressCountry": "FR"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "08:00",
+      "closes": "19:00"
+    },
+    "sameAs": [
+      "https://www.instagram.com/mnglclean",
+      "https://www.tiktok.com/@mnglclean",
+      "https://www.facebook.com/mnglclean"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header>
+    <a href="#" class="nav-logo"></a>
+    <nav>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#galerie">Showroom</a>
+      <a href="#a-propos">À propos</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <img src="images/logo.png" alt="MNGL Clean — lavage et detailing automobile en Vaucluse" class="hero-logo">
+      <div class="hero-sep"></div>
+      <h1 class="hero-sub">Lavage & detailing automobile<br>à domicile — Vaucluse & Alentours</h1>
+      <a href="#" class="hero-cta" onclick="openBooking(); return false;">Prendre rendez-vous</a>
+    </div>
+    <div class="hero-scroll">
+      <span>Découvrir</span>
+      <div class="scroll-bar"></div>
+    </div>
+  </section>
+
+  <!-- TARIFS -->
+  <section id="tarifs" class="tarifs">
+    <div class="section-head">
+      <p class="eyebrow">Nos formules</p>
+      <h2>Tarifs & Prestations</h2>
+    </div>
+
+    <p class="tarif-group-label">Prestations à la carte</p>
+    <div class="tarif-grid tarif-grid-solo">
+
+      <div class="tarif-card">
+        <div class="tarif-num">01</div>
+        <h3>Basique</h3>
+        <p class="tarif-desc">L'entretien intérieur régulier, propre et net.</p>
+        <div class="tarif-price">À partir de <strong>50€</strong></div>
+        <ul>
+          <li>Aspiration complète de l'habitacle</li>
+          <li>Dépoussiérage & dégraissage des plastiques intérieurs</li>
+          <li>Aspiration des tapis</li>
+          <li>Nettoyage des vitres intérieures</li>
+          <li>Aspiration du coffre</li>
+          <li>Parfum de finition</li>
+        </ul>
+        <a href="#" class="tarif-btn" onclick="openBooking('Basique'); return false;">Réserver</a>
+      </div>
+
+      <div class="tarif-card">
+        <div class="tarif-num">02</div>
+        <h3>Premium</h3>
+        <p class="tarif-desc">L'intérieur en profondeur, shampouiné et soigné.</p>
+        <div class="tarif-price">À partir de <strong>70€</strong></div>
+        <ul>
+          <li>Aspiration complète de l'habitacle</li>
+          <li>Dépoussiérage & dégraissage des plastiques intérieurs</li>
+          <li>Shampouinage des sièges</li>
+          <li>Shampouinage des tapis</li>
+          <li>Shampouinage des moquettes</li>
+          <li>Nettoyage du ciel de toit</li>
+          <li>Nettoyage des vitres intérieures et extérieures</li>
+          <li>Nettoyage du coffre</li>
+          <li>Parfum de finition</li>
+        </ul>
+        <a href="#" class="tarif-btn" onclick="openBooking('Premium'); return false;">Réserver</a>
+      </div>
+
+      <div class="tarif-card">
+        <div class="tarif-num">03</div>
+        <h3>Extérieur</h3>
+        <p class="tarif-desc">Carrosserie éclatante, lavage à la main.</p>
+        <div class="tarif-price">À partir de <strong>40€</strong></div>
+        <ul>
+          <li>Lavage carrosserie à la main</li>
+          <li>Jantes, pneus & passages</li>
+          <li>Vitres extérieur</li>
+          <li>Séchage précision</li>
+        </ul>
+        <a href="#" class="tarif-btn" onclick="openBooking('Extérieur'); return false;">Réserver</a>
+      </div>
+
+    </div>
+
+    <p class="tarif-group-label">Formules combinées</p>
+    <div class="tarif-grid tarif-grid-combo">
+
+      <div class="tarif-card">
+        <div class="tarif-num">04</div>
+        <h3>Standard</h3>
+        <p class="tarif-desc">Basique + Extérieur : intérieur et extérieur, en un seul rendez-vous.</p>
+        <div class="tarif-price">À partir de <strong>80€</strong></div>
+        <ul>
+          <li>Tout le pack Basique</li>
+          <li>Lavage carrosserie à la main</li>
+          <li>Jantes, pneus & passages</li>
+          <li>Séchage précision</li>
+        </ul>
+        <a href="#" class="tarif-btn" onclick="openBooking('Standard'); return false;">Réserver</a>
+      </div>
+
+      <div class="tarif-card tarif-featured">
+        <span class="tarif-badge">Le plus complet</span>
+        <div class="tarif-num">05</div>
+        <h3>Complet</h3>
+        <p class="tarif-desc">Premium + Extérieur : le forfait le plus complet.</p>
+        <div class="tarif-price">À partir de <strong>100€</strong></div>
+        <ul>
+          <li>Tout le pack Premium</li>
+          <li>Lavage carrosserie à la main</li>
+          <li>Jantes, pneus & passages</li>
+          <li>Séchage précision</li>
+        </ul>
+        <a href="#" class="tarif-btn tarif-btn-inv" onclick="openBooking('Complet'); return false;">Réserver</a>
+      </div>
+
+    </div>
+
+    <p class="tarif-note">Un besoin particulier, un véhicule atypique ? <a href="#" onclick="openDevis(); return false;">Devis sur demande</a>.</p>
+  </section>
+
+  <!-- GALERIE : SLIDER AVANT / APRÈS -->
+  <section id="galerie" class="galerie">
+    <div class="section-head">
+      <p class="eyebrow">Réalisations</p>
+      <h2>Showroom</h2>
+    </div>
+
+    <!-- SLIDERS AVANT/APRÈS -->
+    <div class="sliders-wrap">
+
+      <div class="slider-block">
+        <div class="ba-slider" id="slider1">
+          <div class="ba-after">
+            <img src="images/apres1.jpg" alt="Après — Kia">
+            <span class="ba-badge ba-badge-after">Après</span>
+          </div>
+          <div class="ba-before">
+            <img src="images/avant1.jpg" alt="Avant — Kia">
+            <span class="ba-badge ba-badge-before">Avant</span>
+          </div>
+          <div class="ba-handle">
+            <div class="ba-line"></div>
+            <div class="ba-circle"><span>&#8249;</span><span>&#8250;</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-block">
+        <div class="ba-slider" id="slider2">
+          <div class="ba-after">
+            <img src="images/apres2.jpg" alt="Après — Renault Clio 3">
+            <span class="ba-badge ba-badge-after">Après</span>
+          </div>
+          <div class="ba-before">
+            <img src="images/avant2.jpg" alt="Avant — Renault Clio 3">
+            <span class="ba-badge ba-badge-before">Avant</span>
+          </div>
+          <div class="ba-handle">
+            <div class="ba-line"></div>
+            <div class="ba-circle"><span>&#8249;</span><span>&#8250;</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-block">
+        <div class="ba-slider" id="slider3">
+          <div class="ba-after">
+            <img src="images/apres3.jpg" alt="Après — Utilitaire">
+            <span class="ba-badge ba-badge-after">Après</span>
+          </div>
+          <div class="ba-before">
+            <img src="images/avant3.jpg" alt="Avant — Utilitaire">
+            <span class="ba-badge ba-badge-before">Avant</span>
+          </div>
+          <div class="ba-handle">
+            <div class="ba-line"></div>
+            <div class="ba-circle"><span>&#8249;</span><span>&#8250;</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- PHOTOS NORMALES -->
+    <div class="galerie-grid" id="galerie-grid">
+      <button type="button" class="galerie-item"><img src="images/realisation1.jpg" alt="Réalisation MNGL Clean"></button>
+      <button type="button" class="galerie-item"><img src="images/realisation2.jpg" alt="Réalisation MNGL Clean"></button>
+      <button type="button" class="galerie-item"><img src="images/realisation3.jpg" alt="Réalisation MNGL Clean"></button>
+      <button type="button" class="galerie-item"><img src="images/realisation4.jpg" alt="Réalisation MNGL Clean — Mercedes AMG"></button>
+    </div>
+  </section>
+
+  <!-- VISIONNEUSE PLEIN ÉCRAN (SHOWROOM) -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Fermer">&times;</button>
+    <button type="button" class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Photo précédente">&#8249;</button>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="Réalisation MNGL Clean">
+    <button type="button" class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Photo suivante">&#8250;</button>
+  </div>
+
+  <!-- AVIS GOOGLE -->
+  <section id="avis" class="avis">
+    <div class="section-head">
+      <p class="eyebrow">Ils nous font confiance</p>
+      <h2>Avis Google</h2>
+    </div>
+
+    <div class="avis-track-wrap">
+      <div class="avis-track">
+        <div class="avis-card">
+          <div class="avis-stars">★★★★★</div>
+          <p class="avis-text">Super professionnel ! J'ai fait appel à ce service pour nettoyer mon camion professionnel de paysagiste qui était dans un piteux état et Dylan me l'a rendu comme neuf. Merci encore.</p>
+          <span class="avis-author">Quentin</span>
+        </div>
+        <div class="avis-card">
+          <div class="avis-stars">★★★★★</div>
+          <p class="avis-text">Franchement, une personne qui aime ce qu'elle fait. Ma voiture est ressortie aussi propre et belle que le premier jour, je recommande vivement et je reviendrai vers lui. Merci encore.</p>
+          <span class="avis-author">Matthias C.</span>
+        </div>
+        <div class="avis-card">
+          <div class="avis-stars">★★★★★</div>
+          <p class="avis-text">Je suis très contente du service, très bon travail, personne sérieuse et disponible rapidement. Merci pour le nettoyage de ma voiture. Je recommande !</p>
+          <span class="avis-author">Maeva</span>
+        </div>
+        <div class="avis-card">
+          <div class="avis-stars">★★★★★</div>
+          <p class="avis-text">Franchement, je recommande à 100% ! Ma voiture en avait vraiment besoin et le résultat est au-delà de ce que j'espérais. Elle est ressortie super propre, l'intérieur sent bon et tous les petits détails ont été faits avec soin. On sent que le travail est réalisé avec passion et sérieux. Merci Dylan.</p>
+          <span class="avis-author">Cynthia M.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="a-propos">
+    <div class="footer-grid">
+
+      <div class="footer-col">
+        <h4>Liens rapides</h4>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#galerie">Showroom</a>
+        <a href="#" onclick="openBooking(); return false;">Réserver</a>
+        <a href="#" onclick="openDevis(); return false;">Demander un devis</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:+33671679728">+33 6 71 67 97 28</a>
+        <a href="mailto:contact@mnglclean.fr">contact@mnglclean.fr</a>
+        <span class="footer-static">Vaucluse & Alentours</span>
+        <span class="footer-static">Lundi – Samedi · 8h – 19h</span>
+      </div>
+
+      <div class="footer-col">
+        <h4>Suivez-nous</h4>
+        <a href="https://www.instagram.com/mnglclean" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@mnglclean" target="_blank">TikTok</a>
+        <a href="https://www.facebook.com/mnglclean" target="_blank">Facebook</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2025 MNGL Clean</span>
+    </div>
+  </footer>
+
+  <!-- RÉSERVATION -->
+  <div class="booking-overlay" id="booking-overlay" aria-hidden="true">
+    <div class="booking-modal" role="dialog" aria-modal="true" aria-label="Prise de rendez-vous">
+      <button type="button" class="booking-close" id="booking-close" aria-label="Fermer">&times;</button>
+
+      <div class="booking-progress" id="booking-progress">
+        <span class="bp-step is-active" data-step="1"><em>01</em>Formule</span>
+        <span class="bp-step" data-step="2"><em>02</em>Date</span>
+        <span class="bp-step" data-step="3"><em>03</em>Heure</span>
+        <span class="bp-step" data-step="4"><em>04</em>Coordonnées</span>
+      </div>
+
+      <div class="booking-body">
+
+        <!-- STEP 1 — FORMULE -->
+        <section class="booking-panel is-active" data-panel="1">
+          <p class="booking-eyebrow">Étape 1</p>
+          <h3>Choisissez votre formule</h3>
+          <div class="booking-services">
+            <button type="button" class="bsc" data-service="Basique" data-price="50" data-duration="90">
+              <span class="bsc-num">01</span>
+              <span class="bsc-name">Basique</span>
+              <span class="bsc-price">À partir de 50€</span>
+              <span class="bsc-duration">≈ 1h30</span>
+            </button>
+            <button type="button" class="bsc" data-service="Premium" data-price="70" data-duration="180">
+              <span class="bsc-num">02</span>
+              <span class="bsc-name">Premium</span>
+              <span class="bsc-price">À partir de 70€</span>
+              <span class="bsc-duration">≈ 3h</span>
+            </button>
+            <button type="button" class="bsc" data-service="Extérieur" data-price="40" data-duration="60">
+              <span class="bsc-num">03</span>
+              <span class="bsc-name">Extérieur</span>
+              <span class="bsc-price">À partir de 40€</span>
+              <span class="bsc-duration">≈ 1h</span>
+            </button>
+            <button type="button" class="bsc" data-service="Standard" data-price="80" data-duration="150">
+              <span class="bsc-num">04</span>
+              <span class="bsc-name">Standard</span>
+              <span class="bsc-price">À partir de 80€</span>
+              <span class="bsc-duration">≈ 2h30</span>
+            </button>
+            <button type="button" class="bsc bsc-featured" data-service="Complet" data-price="100" data-duration="240">
+              <span class="bsc-num">05</span>
+              <span class="bsc-name">Complet</span>
+              <span class="bsc-price">À partir de 100€</span>
+              <span class="bsc-duration">≈ 4h</span>
+            </button>
+          </div>
+
+          <div class="booking-extras" id="booking-extras">
+            <div class="field">
+              <label>Type de véhicule</label>
+              <div class="vehicle-options" id="vehicle-options">
+                <button type="button" class="veh-btn" data-vehicle="Citadine" data-supplement="0">
+                  <span class="veh-name">Citadine</span>
+                  <span class="veh-example">Exemple : Fiat 500</span>
+                  <span class="veh-supp veh-supp-empty">Inclus</span>
+                </button>
+                <button type="button" class="veh-btn" data-vehicle="Berline" data-supplement="0">
+                  <span class="veh-name">Berline</span>
+                  <span class="veh-example">Exemple : Audi A4</span>
+                  <span class="veh-supp veh-supp-empty">Inclus</span>
+                </button>
+                <button type="button" class="veh-btn" data-vehicle="SUV" data-supplement="10">
+                  <span class="veh-name">SUV</span>
+                  <span class="veh-example">Exemple : Peugeot 3008</span>
+                  <span class="veh-supp">+10€</span>
+                </button>
+                <button type="button" class="veh-btn" data-vehicle="Utilitaire" data-supplement="10">
+                  <span class="veh-name">Utilitaire</span>
+                  <span class="veh-example">Exemple : Trafic, Partner</span>
+                  <span class="veh-supp">+10€</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="field" id="booking-options-field">
+              <label>Options supplémentaires (facultatif — plusieurs choix possibles)</label>
+              <div class="booking-options" id="booking-options">
+                <button type="button" class="opt-btn" data-option="Traitement plastique intérieur" data-supplement="20" data-duration="15">
+                  <span class="opt-name">Traitement plastique intérieur</span>
+                  <span class="opt-price">+20€ · +15min</span>
+                </button>
+                <button type="button" class="opt-btn" data-option="Traitement cuir" data-supplement="20" data-duration="30">
+                  <span class="opt-name">Traitement cuir</span>
+                  <span class="opt-price">+20€ · +30min</span>
+                </button>
+                <button type="button" class="opt-btn" data-option="Poils d'animaux" data-supplement="20" data-duration="60">
+                  <span class="opt-name">Présence de poils d'animaux</span>
+                  <span class="opt-price">+20€ · +1h</span>
+                </button>
+                <button type="button" class="opt-btn" data-option="Nettoyage compartiment moteur" data-supplement="20" data-duration="15">
+                  <span class="opt-name">Nettoyage compartiment moteur</span>
+                  <span class="opt-price">+20€ · +15min</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- STEP 2 — DATE -->
+        <section class="booking-panel" data-panel="2">
+          <p class="booking-eyebrow">Étape 2</p>
+          <h3>Choisissez une date</h3>
+          <div class="cal-head">
+            <button type="button" class="cal-nav" id="cal-prev" aria-label="Mois précédent">&#8249;</button>
+            <span id="cal-label"></span>
+            <button type="button" class="cal-nav" id="cal-next" aria-label="Mois suivant">&#8250;</button>
+          </div>
+          <div class="cal-weekdays">
+            <span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span>
+          </div>
+          <div class="cal-grid" id="cal-grid"></div>
+          <p class="booking-note">Lundi–Samedi · 8h–19h — Fermé le Dimanche</p>
+        </section>
+
+        <!-- STEP 4 — HEURE -->
+        <section class="booking-panel" data-panel="3">
+          <p class="booking-eyebrow">Étape 3</p>
+          <h3>Choisissez un créneau</h3>
+          <p class="slot-date" id="slot-date"></p>
+          <div class="slot-grid" id="slot-grid"></div>
+          <p class="booking-note" id="slot-empty" hidden>Plus aucun créneau disponible ce jour-là — essayez une autre date.</p>
+        </section>
+
+        <!-- STEP 5 — COORDONNÉES -->
+        <section class="booking-panel" data-panel="4">
+          <p class="booking-eyebrow">Étape 4</p>
+          <h3>Vos coordonnées</h3>
+          <div class="booking-recap" id="booking-recap"></div>
+          <form id="booking-form" class="contact-form">
+            <div class="form-row">
+              <div class="field">
+                <label>Prénom</label>
+                <input type="text" name="prenom" placeholder="Votre prénom" required>
+              </div>
+              <div class="field">
+                <label>Nom</label>
+                <input type="text" name="nom" placeholder="Votre nom" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label>Téléphone</label>
+                <input type="tel" name="tel" placeholder="06 00 00 00 00" required>
+              </div>
+            </div>
+            <div class="field">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="votre@email.com" required>
+            </div>
+            <div class="field">
+              <label>Véhicule</label>
+              <input type="text" name="vehicule" placeholder="Marque, modèle, année">
+            </div>
+            <div class="field">
+              <label>Adresse d'intervention</label>
+              <input type="text" name="adresse" placeholder="Adresse à domicile">
+            </div>
+          </form>
+        </section>
+
+        <!-- STEP 6 — CONFIRMATION -->
+        <section class="booking-panel" data-panel="5">
+          <div class="booking-confirm">
+            <div class="confirm-mark">&#10003;</div>
+            <h3>Rendez-vous enregistré</h3>
+            <p id="confirm-text"></p>
+            <div class="confirm-id-box">
+              <span class="detail-label">Numéro de réservation — à conserver pour annuler</span>
+              <div class="confirm-id-row">
+                <strong id="confirm-id-value"></strong>
+                <button type="button" id="confirm-id-copy">Copier</button>
+              </div>
+            </div>
+            <p class="confirm-spam-note">Un email de confirmation vous a été envoyé. Pensez à vérifier vos spams / courrier indésirable s'il n'apparaît pas dans votre boîte de réception.</p>
+            <div class="confirm-actions">
+              <button type="button" id="confirm-ics">Ajouter à mon calendrier</button>
+              <button type="button" id="confirm-restart" class="booking-btn-ghost">Nouvelle réservation</button>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <div class="booking-nav">
+        <button type="button" id="booking-back" class="booking-btn-ghost">Retour</button>
+        <button type="button" id="booking-next" class="booking-btn">Continuer</button>
+        <span class="booking-total-nav" id="booking-total-nav"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ANNULATION D'UN RENDEZ-VOUS -->
+  <div class="booking-overlay" id="cancel-overlay" aria-hidden="true">
+    <div class="booking-modal cancel-modal" role="dialog" aria-modal="true" aria-label="Annuler un rendez-vous">
+      <button type="button" class="booking-close" id="cancel-close" aria-label="Fermer">&times;</button>
+
+      <div class="booking-body">
+        <section class="booking-panel is-active">
+          <p class="booking-eyebrow">Annulation</p>
+          <h3>Annuler un rendez-vous</h3>
+          <p class="booking-note cancel-intro">Renseigne le numéro de réservation reçu lors de ta prise de rendez-vous, ainsi que l'email utilisé.</p>
+
+          <form id="cancel-form" class="contact-form">
+            <div class="field">
+              <label>Numéro de réservation</label>
+              <input type="text" name="id" placeholder="ex. m3f8k2a9q" required>
+            </div>
+            <div class="field">
+              <label>Email utilisé lors de la réservation</label>
+              <input type="email" name="email" placeholder="votre@email.com" required>
+            </div>
+            <p id="cancel-message" class="booking-note" role="status"></p>
+            <button type="submit" id="cancel-submit" class="booking-btn">Annuler ce rendez-vous</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- DEVIS SUR DEMANDE -->
+  <div class="booking-overlay" id="devis-overlay" aria-hidden="true">
+    <div class="booking-modal cancel-modal" role="dialog" aria-modal="true" aria-label="Demander un devis">
+      <button type="button" class="booking-close" id="devis-close" aria-label="Fermer">&times;</button>
+
+      <div class="booking-body">
+        <section class="booking-panel is-active">
+          <p class="booking-eyebrow">Devis sur demande</p>
+          <h3>Un besoin particulier ?</h3>
+          <p class="booking-note cancel-intro">Véhicule atypique, prestation sur-mesure ou question avant de réserver : décris-nous ta demande, on te répond rapidement.</p>
+
+          <form id="devis-form" class="contact-form" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="field">
+                <label>Nom</label>
+                <input type="text" name="nom" placeholder="Votre nom" required>
+              </div>
+              <div class="field">
+                <label>Téléphone</label>
+                <input type="tel" name="tel" placeholder="06 00 00 00 00">
+              </div>
+            </div>
+            <div class="field">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="votre@email.com" required>
+            </div>
+            <div class="field">
+              <label>Prestation</label>
+              <select name="prestation">
+                <option value="">Choisir une formule…</option>
+                <option>Basique</option>
+                <option>Premium</option>
+                <option>Extérieur</option>
+                <option>Standard</option>
+                <option>Complet</option>
+                <option>Autre / Devis personnalisé</option>
+              </select>
+            </div>
+            <div class="field">
+              <label>Véhicule</label>
+              <input type="text" name="vehicule" placeholder="Marque, modèle, année">
+            </div>
+            <div class="field">
+              <label>Message</label>
+              <textarea name="message" placeholder="Décris ta demande…"></textarea>
+            </div>
+            <button type="submit" id="submit-btn" class="booking-btn">Envoyer la demande</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- DIAGNOSTIC EMAIL -->
+  <div class="booking-overlay" id="emailtest-overlay" aria-hidden="true">
+    <div class="booking-modal cancel-modal" role="dialog" aria-modal="true" aria-label="Tester la configuration email">
+      <button type="button" class="booking-close" id="emailtest-close" aria-label="Fermer">&times;</button>
+
+      <div class="booking-body">
+        <section class="booking-panel is-active">
+          <p class="booking-eyebrow">Diagnostic</p>
+          <h3>Tester la configuration email</h3>
+          <p class="booking-note cancel-intro">Envoie un email de test réel via les deux systèmes, et affiche le résultat exact (y compris les erreurs) pour voir où ça bloque.</p>
+
+          <div class="field">
+            <label>Adresse email de test (pour EmailJS)</label>
+            <input type="email" id="emailtest-address" placeholder="votre@email.com">
+          </div>
+          <button type="button" id="emailtest-run" class="booking-btn" style="width:100%; margin: 0.6rem 0 1.4rem;">Lancer le test</button>
+
+          <div id="emailtest-results"></div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
